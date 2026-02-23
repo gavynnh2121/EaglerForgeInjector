@@ -20,7 +20,7 @@
 
         ModAPI.addEventListener("update", ()=>{ //recoil update loop (client)
             ModAPI.player.rotationPitch -= recoilSpeed;
-            recoilSpeed *= 0.7;
+            recoilSpeed *= 0;
         });
 
         function entityRayCast(player, world, range) {
